@@ -85,4 +85,23 @@
   	</value>
   </Operation>
   
+  <!-- Concrete -->
+  
+  <Operation Class="PatchOperationReplace">
+  	<xpath>Defs/ThingDef[defName="ConcreteResource"]/graphicData</xpath>
+  	<value>
+  		<graphicData>
+			<texPath>Things/Item/Resource/Concrete</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+  	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+  	<xpath>Defs/ThingDef[defName="ConcreteResource"]</xpath>
+  	<value>
+		<uiIconPath>Things/Item/Resource/Concrete/Concrete_a</uiIconPath>
+  	</value>
+  </Operation>
+  
 </Patch>
